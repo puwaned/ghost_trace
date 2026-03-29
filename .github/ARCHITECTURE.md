@@ -2,18 +2,22 @@
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Flutter (mobile only — Android & iOS) |
-| Language | Dart |
-| State Management | `flutter_bloc` + `bloc` + `equatable` |
-| Local Database | `isar` + `isar_flutter_libs` |
-| Maps | `flutter_map` + `latlong2` |
-| Location | `geolocator` + `permission_handler` |
-| Backend | Supabase (PostgreSQL + PostGIS) |
-| Notifications | `flutter_local_notifications` |
-| Utilities | `uuid`, `shared_preferences` |
-| Theme | Dark mode by default |
+| Layer | Technology | Version |
+|---|---|---|
+| Flutter Version | FVM (Flutter Version Manager) | `fvm flutter ...` |
+| Framework | Flutter (mobile only — Android & iOS) | SDK |
+| Language | Dart | `^3.11.4` |
+| State Management | `flutter_bloc` + `equatable` | `^9.1.1` / `^2.0.8` |
+| Local Database | `isar` + `isar_flutter_libs` | `^3.1.0+1` |
+| Maps | `flutter_map` + `latlong2` | `^8.2.2` / `^0.9.1` |
+| Location | `geolocator` + `permission_handler` | `^14.0.2` / `^12.0.1` |
+| Backend | Supabase (PostgreSQL + PostGIS) | `supabase_flutter ^2.12.2` |
+| Notifications | `flutter_local_notifications` | `^21.0.0` |
+| Utilities | `uuid` + `shared_preferences` | `^4.5.3` / `^2.5.5` |
+| Code Generation | `isar_generator` + `build_runner` | `^3.1.0+1` / `^2.4.13` (dev) |
+| Icons | `cupertino_icons` | `^1.0.8` |
+| Linting | `flutter_lints` | `^6.0.0` |
+| Theme | Dark mode by default | — |
 
 ---
 
