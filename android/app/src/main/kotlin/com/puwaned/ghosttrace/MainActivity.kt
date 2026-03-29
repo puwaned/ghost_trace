@@ -1,4 +1,4 @@
-package com.example.ghost_trace
+package com.puwaned.ghosttrace
 
 import io.flutter.embedding.android.FlutterActivity
 
